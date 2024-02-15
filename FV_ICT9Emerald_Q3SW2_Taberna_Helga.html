@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q3Seatwork2</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+	<style>
+		h1{
+			background-color: #E3E1D9;
+			color: #B4B4B8;
+			height: 80px;
+			border: 2px solid #B4B4B8;
+			font-size: 60px;
+			font-family: DejaVu Sans Mono, monospace;
+		}
+		body{
+			background-color: #F2EFE5;
+		}
+		img{
+			height: 200px;
+			width: 400px;
+		}
+		div{
+			font-family: DejaVu Sans Mono, monospace;
+		}
+		#tom{
+			font-size: 20px;
+		}
+
+		
+	</style>
+</head>
+<body>
+	<center><h1><b>Membership Form</b></h1></center><br>
+	<div class="container">
+
+	<div class="row">
+	    	<div id="img1" class="col-md-4" style="background-color:#E3E1D9;">
+	    	<img width="300px" height="200px" class="mx-auto d-block" src="https://media.interaksyon.com/wp-content/uploads/2022/09/Tivoli-Royale-Country-Club.jpg"/>
+	        </div>
+
+	    <div class="col-md-8" style="background-color: #E3E1D9;">
+	    	<center><h2 class="text-dark" id="name1" style="color:#C9D7DD">Tivoli Royale Country Club</h2><br>
+	    	<p class="text-dark"> Tivoli Royale Country Club was originally founded a quarter-century ago.<br><br>
+
+ 			It is now a fully rejuvenated sports and leisure facility in the heart of Quezon City.</p>
+
+ 			<p>Link to:<a href="https://tivoliroyalecountryclub.com/"targets="blank"> Learn more</a></p></center>
+	    </div>
+	</div><br>
+
+	<h3 id="title">Membership Inquiry</h3>
+
+	<div class="row">   	
+	</div>
+
+	<form class="form-group">
+	<div class="row">
+		<div class="col-md-6">
+			<p><b>First Name</b></p><input type="text" class="form-control" id="fn" placeholder="First Name" name="name">
+		</div>
+		<div class="col-md-6">
+			<p><b>Last Name</b></p>
+			<input type="text" class="form-control" placeholder="Last Name" class="form-control" name="ln"><br>
+		</div>
+		<div class="col-md-6">
+			<p><b>Contact Number</b></p>
+			<input type="text" class="form-control" placeholder="+63 9XX XXX XX XX" class="form-control" name="pswd">
+		</div>
+		<div class="col-md-6">
+			<p><b>Email</b></p>
+			<input type="text" class="form-control" placeholder="Email" class="form-control" name="email"><br>
+		</div>
+	</div>
+	<div class="row">
+
+		<div class="col-md-12">
+			<textarea class="form-control" rows="4" id="comment" placeholder="Enter your message or requests here."></textarea>
+		</div>
+	<div class="col-md-6">
+   	<div class="form-check">
+   		<label class="form-check-label">
+   			<p id="tom"><b>Type of Membership</b></p>
+   			<div class="form-check">
+  				<input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Regular (3 month) 
+  				<label class="form-check-label" for="radio1"></label>
+			</div>
+			<div class="form-check">
+  				<input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Gold (6 month) 
+  				<label class="form-check-label" for="radio1"></label>
+			</div>
+			<div class="form-check">
+  				<input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Premium (12 month)
+  				<label class="form-check-label" for="radio1"></label>
+			</div>
+   		</label>
+   	</div>
+	</div>
+	<br>
+	<div class="col-md-6">
+			<div class="form-group">
+				<label for="sell"><b>What time should we call you?</b></label>
+				<select class="form-control" id="sell">
+					<option>9 - 11 am</option>
+					<option>1 - 3 pm</option>
+					<option>4 - 7 pm</option>
+				</select>
+			</div>
+	</div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="alert alert-success">
+				<strong>Success!</strong> Indicates a succesful or positive action.
+			</div>
+		</div>
+		
+	</div>
+
+</body>
+</html>
